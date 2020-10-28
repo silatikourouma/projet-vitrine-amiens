@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html lang="fr" dir="ltr">
+
 <head>
   <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Fifty's American Diner</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
     integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous" />
@@ -9,7 +11,82 @@
 </head>
 
 <body>
-
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark py-2 text-center">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <!--<span class="navbar-toggler-icon"></span>-->
+      <a class=" logo navbar-brand" href="#"></a>
+    </button>
+    <div class=" nav collapse navbar-collapse text-white text-center" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#home">Accueil </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#menus">Menus</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <div id="pres-resto" class="flex ">
+    <div id="pres-resto-text" class="flex text-white text-left w-100">
+      <h1>Le<b> Fifty's americain diner </b>est un restaurant à l'ambiance typiquement US.<br>
+        Dans un environnement haut en couleur, <br>il est possible d'y manger sur place ou à emporter, avec
+        nos préparations aux goûts américains.
+      </h1>
+    </div>
+  </div>
+  <section id="pin-dishes">
+    <div class="container text-center p-4">
+      <h2>Sélections</h2>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class=" m-0 boite col-sm-4 p-0">
+          <img src="assets/img/milkshake.jpg" class=" plat img-fluid h-100 p-2" alt="photo">
+          <div class="overlay d-flex align-items-center justify-content-center">
+            <div class="h2 text-white text-center">Indiana Burger</div>
+          </div>
+        </div>
+        <div class=" m-0 boite col-sm-4 p-0" >
+          <img src="assets/img/dongorske.jpg" class=" plat img-fluid h-100 p-2" alt="photo">
+          <div class="overlay d-flex align-items-center justify-content-center p-2">
+            <div class="h2 text-white text-center">Don Gorske</div>
+          </div>
+        </div>
+        <div class=" m-0 boite col-sm-4 p-0">
+          <img src="assets/img/saladecobb.jpg" class=" plat img-fluid h-100 p-2" alt="photo">
+          <div class="overlay d-flex align-items-center justify-content-center">
+            <div class="h2 text-white text-center">Salade Cobb</div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="m-0  boite col-sm-4 p-0">
+            <img src="assets/img/salmonsalad.png" class=" plat img-fluid h-100 p-2" alt="photo">
+            <div class="overlay d-flex align-items-center justify-content-center">
+              <div class="h2 text-white text-center">Salmon Salad</div>
+            </div>
+          </div>
+          <div class=" m-0 boite col-sm-4 p-0">
+            <img src="assets/img/milkshake.jpg" class=" plat img-fluid h-100 p-2" alt="photo">
+            <div class="overlay d-flex align-items-center justify-content-center">
+              <div class="h2 text-white text-center">Salade Cobb</div>
+            </div>
+          </div>
+          <div class=" m-0 boite col-sm-4 p-0">
+            <img src="assets/img/cafegourmand.jpg" class=" plat img-fluid h-100 p-2" alt="photo">
+            <div class="overlay d-flex align-items-center justify-content-center">
+              <div class="h2 text-white text-center">Salade Cobb</div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
     integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
     crossorigin="anonymous"></script>

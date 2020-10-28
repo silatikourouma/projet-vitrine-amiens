@@ -1,0 +1,122 @@
+div#pres-resto #pres-resto-text {
+    height:500px;
+    background-image: url(../img/burger.jpg);
+    background-position: center ;
+    background-repeat:no-repeat;
+    background-size: cover;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+  }
+  div#pres-resto #pres-resto-text h1{
+    color: white;
+    margin-left: 100px;
+    font-size: 20px;
+    font-weight: 300;
+    line-height:30px;
+  }
+
+  .logo{
+    background-image: url(../img/logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 500px;
+    height: 40px;
+    margin: auto;
+  }
+  .container h2{
+    color: white;
+    padding-top: 10px;
+    font-size: 2rem;
+    text-align: center;
+    background-color: #1f2229;
+  
+   
+}
+.boite {
+  position: relative;
+  width: 50%;
+
+}
+
+.plat {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.overlay {
+ position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+   right: 0; 
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: black;
+   
+}
+.boite:hover .overlay {
+  opacity: 0.5;
+}
+.boite{
+   width: 100%;
+    height: 300px;
+    bottom: 0;
+    top: 0;
+    margin: 10px;
+  
+  /*}
+  #logo-gorske{
+    background-image: url(../img/dongorske.jpg);
+    width: 100%;
+    height: 300px;
+    background-size:cover ;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 10px;
+  }
+  #logo-cobb{
+    background-image: url(../img/saladecobb.jpg);
+    width: 100%;
+    height: 300px;
+    background-size:cover ;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 10px;
+  }
+  #logo-salad{
+    background-image: url(../img/salmonsalad.png);
+    width: 100%;
+    height: 300px;
+    background-size:cover ;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 10px;
+  }
+  #logo-milkshake{
+    background-image: url(../img/milkshake.jpg);
+    width: 100%;
+    height: 300px;
+    background-size:cover ;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 10px;
+  }
+   #logo-gourmand{
+  background-image: url(../img/cafegourmand.jpg);
+  width: 100%;
+    height: 300px;
+    background-size:cover ;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 10px;
+   }
+   .text-survol-dishes:hover{
+    filter: brightness(50%);
+
+
+   } */
+   
